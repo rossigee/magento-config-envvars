@@ -1,0 +1,10 @@
+{
+    "name": "rossigee/config-envvars",
+    "description": "Adds the possibility to use environment variables in the local.xml file to make multiple deployments easier.",
+    "type": "magento-module",
+    "homepage": "https://github.com/rossigee/magento-config-envvars",
+    "license": "Public domain",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "3.*"
+    }
+}
