@@ -5,9 +5,9 @@
  * with their environment variable equivalent
  *
  * @category   Mage
- * @package    Custom_Core
+ * @package    Rossigee_Core
  */
-class Custom_Core_Model_Config_Element extends Mage_Core_Model_Config_Element
+class Rossigee_Core_Model_Config_Element extends Mage_Core_Model_Config_Element
 {
     public function xmlentities($value = null)
     {

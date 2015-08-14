@@ -1,2 +1,2 @@
 app/code/local/Mage/Core/Model/Config/Base.php app/code/local/Mage/Core/Model/Config/Base.php
-app/code/local/Custom/Core/Model/Config/Element.php app/code/local/Custom/Core/Model/Config/Element.php
+app/code/local/Rossigee/Core/Model/Config/Element.php app/code/local/Rossigee/Core/Model/Config/Element.php
