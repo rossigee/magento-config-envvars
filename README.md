@@ -5,6 +5,8 @@ In our development workflow, our  webservers provide environment configuration i
 
 This little hack allows us to use '$MAGE_DB_HOST' and any other environment variables in our XML configuration files.
 
+You can also specify a default value in case the envvar is missing or empty by appending it with double pipe symbols (e.g. '$MAGE_DB_HOST||localhost').
+
 
 Usage
 -----
