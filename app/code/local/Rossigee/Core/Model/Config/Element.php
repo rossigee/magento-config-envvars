@@ -43,6 +43,9 @@ class Rossigee_Core_Model_Config_Element extends Mage_Core_Model_Config_Element
                 return getenv(substr($value, 1));
             }
 
+        // If not using an env var, return the hardcoded value.
+        } else {
+            return $value;
         }
         
     }
