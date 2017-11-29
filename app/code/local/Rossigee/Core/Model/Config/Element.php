@@ -40,7 +40,8 @@ class Rossigee_Core_Model_Config_Element extends Mage_Core_Model_Config_Element
 
             // No defaults, use the full value no matter what
             } else {
-                return getenv(substr($value, 1));
+                return $_SERVER[substr($value, 1)];
+                // return getenv(substr($value, 1));
             }
 
         // If not using an env var, return the hardcoded value.
