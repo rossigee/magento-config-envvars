@@ -22,7 +22,7 @@ class Rossigee_Core_Model_Config_Element extends Mage_Core_Model_Config_Element
 
                 // If env var exists, use it, parsing out the default values
                 $envVarName = substr($value, 1, $defaultCharPos-1);
-                $defaultValue = substr($value, $defaultCharPos-1);
+                $defaultValue = substr($value, $defaultCharPos+2);
 
                 // Use whichever of these work for you, or maybe leave it as server if that works?
                 // getenv() didn't work for me, but $_SERVER did
